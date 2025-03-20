@@ -216,10 +216,8 @@ ul li a:hover{
         color: whitesmoke
     }
     body{
-        background-image: url('IMAGES/dark.jpg');
-        background-size: cover;
-        background-attachment: fixed;
-        display: flex;
+        background-color: black;
+        
         
     }
     html{
