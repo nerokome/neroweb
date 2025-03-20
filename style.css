@@ -1,0 +1,229 @@
+body{
+    background-image: url('IMAGES/dark.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.main{
+
+    width : 100%;
+    position: relative;
+    font-family: 'Arial'
+    system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px ;
+    align-items: center;
+    justify-content: space-between;
+}
+.nero{
+    width: 90px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 3px;
+    border-color: green;
+    height : 90px;
+    margin-top: 2%;
+    margin-left: -2%;
+
+}
+ul{
+    margin-top: 2%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: blueviolet;
+    margin-top: -3%;
+    transition: .5s ease-in;
+
+}
+ul li a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+.na{
+    color: rgb(167, 167, 247);
+}
+.info{
+    margin-left: 5%;
+    margin-top: 4%;
+
+}
+.info h1{
+    font-size: 65px;
+    
+    color: grey
+    
+
+}
+.info h3{
+    font-size: 18px;
+    line-height: -3%;
+    color: white;
+}
+.info h2{
+    font-size: 40;
+    color: whitesmoke
+}
+.info h1 span {
+
+    position: relative;
+    color: aqua;
+    animation: typing 4s steps(9) infinite;
+    overflow: hidden;
+    display: inline-flex;
+    
+}
+
+
+@keyframes blinkCursor {
+    0%,75%{opacity: 1;}
+    76%,100%{opacity: 0;}
+}
+@keyframes typing {
+    0%,90%,100%{width: 0;}
+    30%,60%{width: 401.88px;}
+}
+.my{
+    color:beige;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+
+
+.info a{
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    
+    padding: 10px 18px;
+    border-radius: 10px;
+}
+.mid{
+    margin-top: 300px;
+    margin-left: 100px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+.h1{
+    color: aqua;
+    size: 55;
+}
+.na{
+    font-size: 13px;
+}
+.mobile{
+    color: white;
+    font-size: 20px;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+.git{
+    height: 40px;
+    border-radius: 40px;
+    margin-right: 10px;
+    
+   
+}
+.chill{
+    height: 40px;
+    border-radius: 40px; 
+    display: block;
+}
+.my span{
+    color: azure;
+}
+
+@media  (max-width:600px ) {
+    .main{
+
+        width : 100%;
+        position: relative;
+        font-size: 8px;
+        font-family: 'Arial'
+    
+        system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+    ul{
+        display: none;
+    }
+    .info h1{
+    
+        font-size: 35px;
+        color: grey
+        
+    
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    .my{
+        font-size: 15px;
+    }
+    .mobile{
+        color: white;
+        font-size: 15px;
+        margin: auto;
+    }
+    .nero{
+        width: 50px;
+        cursor: pointer;
+        border-radius: 50px;
+        height : 50px;
+        margin-top: -3%;
+        margin-left: -2%;
+    
+    }
+    .mid{
+        margin-top: 200px;
+        margin-left: 20px;
+        margin-right: 30px;
+    }
+    .h1{
+        color: aqua;
+        size: 55;
+        text-align: center;
+    }
+    .info h3{
+        font-size: 13px;
+        line-height: -3%;
+        color: white;
+    }
+    .info h2{
+        font-size: 20px;
+        color: whitesmoke
+    }
+    body{
+        background-image: url('IMAGES/dark.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+
+}
